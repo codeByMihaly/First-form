@@ -8,60 +8,66 @@
 </head>
 
 <body>
-  <div class="first-part">
-    <img class="picture" id=cover-picture src=../Pictures/leaves.avif alt="Picure about leaves">
-    <img class="picture" id=odin-icon src=../Pictures/odin-icon.png alt="Odin icon">
-    <h1 id="odin-heading">ODIN</h1>
-  </div>
-
-  <div class="second-part">
-    <div class="heading-tree">
-      <h3 class="upper-text" id="first-text">This is not a real online service! You know you need something
-        like this in your life to help realize your deepest dreams.
-        Sign up <em>now</em> to get started.
-      </h3>
-      <h3 class="upper-text" id="second-text">You <em> know </em>you want to.</h3>
+  <main class="all">
+    <div class="first-part">
+      <div class="pictures">
+        <img  id=cover-picture src=../Pictures/leaves.avif alt="Picture about leaves">
+          <div class="odin-pictures">
+            <img  id=odin-icon src=../Pictures/odin-icon.png alt="Odin icon">
+            <h1 id="odin-heading">ODIN</h1>
+          </div>
+      </div>
     </div>
-    <form action="" method="post" id="all-form">
-      <fieldset id="fieldset-id">
-        <div>
-        <h2 class="form-text" id="h2-text-id">Let's do this!</h2>
 
-        <div class="label-form" id="f1-id">
-        <label class="form-text" for="first-name">FIRST NAME</label>
-        <input id="first-name" name="First name" type="text" required>
-        </div>
+    <div class="second-part">
+      <div class="heading-tree">
+        <h3 class="upper-text" id="first-text">This is not a real online service! You know you need something
+          like this in your life to help realize your deepest dreams.
+          Sign up <em>now</em> to get started.
+        </h3>
+        <h3 class="upper-text" id="second-text">You <em> know </em>you want to.</h3>
+      </div>
+      <form action="" method="post" id="all-form">
+        <fieldset id="fieldset-id">
+          <div>
+          <h2 class="form-text" id="h2-text-id">Let's do this!</h2>
 
-        <div class="label-form" id="f2-id">
-        <label class="form-text" for="last-name">LAST NAME</label>
-        <input id="last-name" name="Last Name" type="text" required>
-        </div>
+          <div class="label-form" id="f1-id">
+          <label class="form-text" for="first-name">FIRST NAME</label>
+          <input id="first-name" name="First name" type="text" required>
+          </div>
 
-        <div class="label-form" id="email-id">
-        <label class="form-text" for="mail">EMAIL</label>
-        <input id="mail" name="Email" type="email" required>
-        </div>
+          <div class="label-form" id="f2-id">
+          <label class="form-text" for="last-name">LAST NAME</label>
+          <input id="last-name" name="Last Name" type="text" required>
+          </div>
 
-        <div class="label-form" id="phone-id"> 
-        <label class="form-text" for="phone">PHONE NUMBER</label>
-        <input id="phone" name="Phone number" type="tel" required>
-        </div>
+          <div class="label-form" id="email-id">
+          <label class="form-text" for="mail">EMAIL</label>
+          <input id="mail" name="Email" type="email" required>
+          </div>
 
-        <div class="label-form" id="password1-id">
-        <label class="form-text" for="password1">PASSWORD</label>
-        <input id="password1" name="Password" type="password" required>
-        </div>
+          <div class="label-form" id="phone-id"> 
+          <label class="form-text" for="phone">PHONE NUMBER</label>
+          <input id="phone" name="Phone number" type="tel" required>
+          </div>
 
-        <div class="label-form" id="password2-id">
-        <label class="form-text" for="password2">CONFIRM PASSWORD</label>
-        <input id="password2" name="Password confirm" type="password" required>
-        </div>
-      </fieldset>
+          <div class="label-form" id="password1-id">
+          <label class="form-text" for="password1">PASSWORD</label>
+          <input id="password1" name="Password" type="password" required>
+          </div>
 
-      <button class="sign-btn" type="submit">Create Account</button>
-    </form>
-    <p class="lower-text">Already have an account?<a href="" id="lower-link">Log in</a></p>
-  </div>
+          <div class="label-form" id="password2-id">
+          <label class="form-text" for="password2">CONFIRM PASSWORD</label>
+          <input id="password2" name="Password confirm" type="password" required>
+          </div>
+        </fieldset>
+
+        <button class="sign-btn" type="submit">Create Account</button>
+      </form>
+      <p class="lower-text">Already have an account?<a href="" id="lower-link">Log in</a></p>
+    </div>
+</main>
   <script src=script.js></script>
 </body>
 
