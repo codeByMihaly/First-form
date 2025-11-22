@@ -5,37 +5,40 @@
 
 * {
     margin: 0;
+    
 }
 
 body {
     background-color: rgba(0, 0, 0, 0.877);
+
+    
+    
 }
 
 main {
+    justify-content: center;
     display: flex;
+    
 }
 
-.first-part {}
-
-#cover-picture {
-   position: relative;
-   width: 450px;
+#cover-picture {    
+   height: 100vh;
+   width: 30vw;
    display: flex;
    flex-direction: column;
    background-size: cover;
    background-position: center;
-   
 }
+
 
 .odin-pictures {
     display: flex;
     position: absolute;
-    top: 150px;
+    top: 15vh;
     background-color: rgb(0, 0, 0, 0.4);
-    width: 433px;
     align-items: center;
     justify-content: center;
-    padding: 0.5em;
+    width: 30vw;
     
 }
 
@@ -47,17 +50,19 @@ main {
 #odin-heading {
     color: #FFFFFF;
     font-family: Norse-Bold;
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 .second-part {
-
     background-color: #fffffff5;
     font-family: arial;
-    width: 50%;
+    flex-shrink: 2;
+    
+
 }  
 
 .heading-tree {
+    width: 60rem;
     margin-top: 8rem;
     margin-bottom: 4rem;
     margin-left: 2rem;
@@ -68,7 +73,7 @@ main {
 
 .upper-text {
     margin-top: 1rem;
-
+    margin-right: 20rem;
 }
 
 
@@ -77,12 +82,15 @@ fieldset {
     text-decoration: none;
     border: none;
     background-color: #FFFFFF;
+    width: 50vw;
+    
+    
 }
 
 #h2-text-id {
-    
-    margin: 1rem 2rem;
+    margin: 1rem 20rem 0 2rem;
     font-weight: 450;
+    width: 50rem;
 }
 
 label {
@@ -90,35 +98,41 @@ label {
     font-size: 0.8rem;
 }
 
-#f1-id {
-    display: block;
-    width: 50px;
+.label-form {
+   margin: 15px 20px 15px 0;
 }
+
+#f1-id {
+    display: inline-block; 
+}
+
 
 #f2-id {
-    display: inline;
-    width: 50px;
+    display: inline-block;
+ 
 }
-
 
 #email-id {
     display: inline-block;
-    width: 50px;
 }
 
 #phone-id {
-    display: inline;
-    width: 50px;   
+    display: inline-block;
+   
 }
 
 #password1-id {
     display: inline-block;
-    width: 50px; 
 }
 
 #password2-id {
     display: inline-block;
-    width: 50px;
+}
+
+#password2-id:invalid {
+    display: inline-block;
+    color:red;
+    background-color: red;
 }
 
 input {
@@ -130,9 +144,25 @@ input {
     margin-left: 2rem;
 }
 
+input:valid {
+    border-color:#596D48;
+    background-color: #ecffdb;
+}
+
+input:invalid {
+    border-color:#b87171;
+    background-color: rgba(161, 129, 129, 0.048);
+}
+
 .form-text {
     display: block;
    
+}
+
+.prompt {
+    margin-left: 2rem;
+    font-size: 12px;
+    font-style: italic;
 }
 
 .sign-btn {
@@ -178,3 +208,4 @@ input {
     text-decoration: underline;
     color: #596d4898;
 }
+

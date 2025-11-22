@@ -33,33 +33,38 @@
 
           <div class="label-form" id="f1-id">
           <label class="form-text" for="first-name">FIRST NAME</label>
-          <input id="first-name" name="First name" type="text" required>
+          <input id="first-name" name="First name" type="text" placeholder="Example" required>
           </div>
 
           <div class="label-form" id="f2-id">
           <label class="form-text" for="last-name">LAST NAME</label>
-          <input id="last-name" name="Last Name" type="text" required>
+          <input id="last-name" name="Last Name" type="text" placeholder="Name" required>
           </div>
-
+          <br>
           <div class="label-form" id="email-id">
           <label class="form-text" for="mail">EMAIL</label>
-          <input id="mail" name="Email" type="email" required>
+          <input id="mail" name="Email" type="email" placeholder="abcd@yourmail.com" required>
           </div>
 
           <div class="label-form" id="phone-id"> 
           <label class="form-text" for="phone">PHONE NUMBER</label>
-          <input id="phone" name="Phone number" type="tel" required>
+          <input id="phone" name="Phone number" type="tel" placeholder="+36 70 608 4364" required>
           </div>
-
+          <br>
           <div class="label-form" id="password1-id">
           <label class="form-text" for="password1">PASSWORD</label>
-          <input id="password1" name="Password" type="password" required>
+          <input id="password1" name="Password" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{6,10}$" required>
           </div>
 
           <div class="label-form" id="password2-id">
           <label class="form-text" for="password2">CONFIRM PASSWORD</label>
-          <input id="password2" name="Password confirm" type="password" required>
+          <input id="password2" name="Password confirm" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{6,10}$" required>
           </div>
+          <p class="prompt">*Must contain at least one big character</p>
+          <p class="prompt">*Must contain at least one small character</p>
+          <p class="prompt">*Must contain at least one number</p>
+          <p class="prompt">*Must contain at least one symbol</p>
+          <p class="prompt">*Must be between 6-10 characters</p>
         </fieldset>
 
         <button class="sign-btn" type="submit">Create Account</button>
