@@ -11,16 +11,11 @@ body {
     background-color: rgba(0, 0, 0, 0.877);
 }
 
-
-
-.first-part {
-    display: flex;
-    justify-content: center;
-}
-
 main {
     display: flex;
 }
+
+.first-part {}
 
 #cover-picture {
    position: relative;
@@ -56,25 +51,130 @@ main {
 }
 
 .second-part {
-    display: flex;
-    flex-direction: column;
+
     background-color: #fffffff5;
+    font-family: arial;
+    width: 50%;
 }  
 
-.upper-text {
-    
+.heading-tree {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 10rem;
+    font-size: 1.2rem;
 
 }
 
-fieldset {
+.upper-text {
+    margin-top: 1rem;
 
+}
+
+
+
+fieldset {
+    text-decoration: none;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+#h2-text-id {
+    
+    margin: 1rem 2rem;
+    font-weight: 450;
+}
+
+label {
+    margin-left: 2rem;
+    font-size: 0.8rem;
+}
+
+#f1-id {
+    display: block;
+    width: 50px;
+}
+
+#f2-id {
+    display: inline;
+    width: 50px;
+}
+
+
+#email-id {
+    display: inline-block;
+    width: 50px;
+}
+
+#phone-id {
+    display: inline;
+    width: 50px;   
+}
+
+#password1-id {
+    display: inline-block;
+    width: 50px; 
+}
+
+#password2-id {
+    display: inline-block;
+    width: 50px;
+}
+
+input {
+    display: block;
+    border: 1px solid #E5E7EB;
+    padding: 0.5em;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 2rem;
+}
+
+.form-text {
+    display: block;
    
 }
 
+.sign-btn {
+    background-color: #596D48;
+    color:#FFFFFF;
+    margin: 1.5rem 2rem 1rem 2rem;
+    padding: 1em 3em; 
+    border: none;
+    border-radius: 0.5em;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.sign-btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign-btn:active {
+    background-color: #596d48de;
+
+}
+
 .lower-text {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    font-size: 17px;
 
 }
 
 #lower-link {
-   
+    margin-left: 5px;
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 550;
+}
+
+#lower-link:hover {
+    text-decoration: underline;
+}
+
+#lower-link:active {
+    text-decoration: underline;
+    color: #596d4898;
 }
