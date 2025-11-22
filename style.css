@@ -57,6 +57,24 @@ main {
 
 .second-part {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #fffffff5;
+}  
+
+.upper-text {
+    
+
+}
+
+fieldset {
+
+   
+}
+
+.lower-text {
+
+}
+
+#lower-link {
+   
 }
