@@ -1,11 +1,9 @@
 # First-form
 
-
 This project is part of **The Odin Project – Intermediate HTML & CSS** curriculum.  
 The goal was to build a clean, responsive sign‑up form while practicing form structure, input types, validation, and basic styling.
 
  **Live Demo:**  https://codebymihaly.github.io/First-form/
-
 
 ##  Features
 
